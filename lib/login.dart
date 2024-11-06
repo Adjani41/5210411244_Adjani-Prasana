@@ -4,6 +4,8 @@ import 'package:responsi_5210411244/register.dart';
 import 'package:responsi_5210411244/lupa_password.dart';
 
 class LoginScreen extends StatefulWidget {
+  const LoginScreen({super.key});
+
   @override
   _LoginScreenState createState() => _LoginScreenState();
 }
@@ -25,12 +27,12 @@ class _LoginScreenState extends State<LoginScreen> {
       showDialog(
         context: context,
         builder: (context) => AlertDialog(
-          title: Text('Login Gagal'),
-          content: Text('Username atau password salah'),
+          title: const Text('Login Gagal'),
+          content: const Text('Username atau password salah'),
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(context),
-              child: Text('OK'),
+              child: const Text('OK'),
             ),
           ],
         ),
@@ -43,7 +45,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return Scaffold(
       resizeToAvoidBottomInset: true,
       body: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           gradient: LinearGradient(
             colors: [Colors.deepPurple, Colors.blueAccent],
             begin: Alignment.topCenter,
@@ -57,7 +59,7 @@ class _LoginScreenState extends State<LoginScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 // Logo atau ikon
-                Column(
+                const Column(
                   children: [
                     Icon(
                       Icons.lock_outline,
@@ -89,7 +91,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   label: 'Email',
                   controller: _usernameController,
                 ),
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
 
                 // Field Password
                 _buildTextField(
@@ -97,7 +99,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   controller: _passwordController,
                   obscureText: true,
                 ),
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
 
                 // Tautan ke Register dan Lupa Password
                 Row(
@@ -111,7 +113,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               builder: (context) => RegisterScreen()),
                         );
                       },
-                      child: Text(
+                      child: const Text(
                         'Belum punya akun? Daftar',
                         style: TextStyle(
                           color: Colors.white70,
@@ -127,7 +129,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               builder: (context) => LupaPassword()),
                         );
                       },
-                      child: Text(
+                      child: const Text(
                         'Lupa Password?',
                         style: TextStyle(
                           color: Colors.white70,
@@ -137,20 +139,21 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ],
                 ),
-                SizedBox(height: 40),
+                const SizedBox(height: 40),
 
                 // Tombol Login
                 ElevatedButton(
                   onPressed: _login,
                   style: ElevatedButton.styleFrom(
-                    padding: EdgeInsets.symmetric(horizontal: 80, vertical: 15),
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 80, vertical: 15),
                     backgroundColor: Colors.white,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20.0),
                     ),
                     shadowColor: Colors.black45,
                   ),
-                  child: Text(
+                  child: const Text(
                     'Login',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
@@ -178,9 +181,9 @@ class _LoginScreenState extends State<LoginScreen> {
       children: [
         Text(
           label,
-          style: TextStyle(color: Colors.white, fontSize: 16),
+          style: const TextStyle(color: Colors.white, fontSize: 16),
         ),
-        SizedBox(height: 8),
+        const SizedBox(height: 8),
         TextField(
           controller: controller,
           obscureText: obscureText,
@@ -188,17 +191,17 @@ class _LoginScreenState extends State<LoginScreen> {
             filled: true,
             fillColor: Colors.white.withOpacity(0.1),
             hintText: label,
-            hintStyle: TextStyle(color: Colors.white70),
+            hintStyle: const TextStyle(color: Colors.white70),
             border: OutlineInputBorder(
               borderRadius: BorderRadius.circular(12.0),
               borderSide: BorderSide.none,
             ),
             focusedBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(12.0),
-              borderSide: BorderSide(color: Colors.tealAccent),
+              borderSide: const BorderSide(color: Colors.tealAccent),
             ),
           ),
-          style: TextStyle(color: Colors.white),
+          style: const TextStyle(color: Colors.white),
         ),
       ],
     );
