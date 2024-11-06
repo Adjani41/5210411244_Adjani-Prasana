@@ -10,6 +10,8 @@ Matkul  : Pengembangan Aplikasi Mobile Lanjut
 
 Kelas   : E
 
+SCREENSHOT
+
 ![alt text](https://github.com/Adjani41/5210411244_Adjani-Prasana/blob/main/screenshot/Screenshot%201.png?rw=true)
 
 ![alt text](https://github.com/Adjani41/5210411244_Adjani-Prasana/blob/main/screenshot/Screenshot%202.png?raw=true)
