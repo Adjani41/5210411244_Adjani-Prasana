@@ -25,13 +25,14 @@ Pasword
 ![alt text](https://github.com/Adjani41/5210411244_Adjani-Prasana/blob/main/screenshot/Screenshot%203.png?raw=true)
 
 Home
+
 ![alt text](https://github.com/Adjani41/5210411244_Adjani-Prasana/blob/main/screenshot/Screenshot%204.png?raw=true)
 
-Akun
+Profil
 
 ![alt text](https://github.com/Adjani41/5210411244_Adjani-Prasana/blob/main/screenshot/Screenshot%205.png?raw=true)
 
-Profil
+Akun
 
 ![alt text](https://github.com/Adjani41/5210411244_Adjani-Prasana/blob/main/screenshot/Screenshot%206.png?raw=true)
 
