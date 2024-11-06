@@ -14,10 +14,10 @@ SCREENSHOT
 Login
 ![alt text](https://github.com/Adjani41/5210411244_Adjani-Prasana/blob/main/screenshot/Screenshot%201.png?rw=true)
 
-Password
+Regist
 ![alt text](https://github.com/Adjani41/5210411244_Adjani-Prasana/blob/main/screenshot/Screenshot%202.png?raw=true)
 
-Regist
+Pasword
 ![alt text](https://github.com/Adjani41/5210411244_Adjani-Prasana/blob/main/screenshot/Screenshot%203.png?raw=true)
 
 Home
